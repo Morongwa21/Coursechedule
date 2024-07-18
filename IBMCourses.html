@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+                   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #8B0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #8B0000;
+            margin-bottom: 20px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: -20px 0; /* Add margin to allow scrolling */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+     
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+            }
+
+            header img {
+                position: static;
+                display: block;
+                margin: 0 auto 10px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+
+            section {
+                margin: 10px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+
+            th, td {
+                font-size: 14px;
+            }
+
+            .table-wrapper {
+                margin: -10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                padding: 5px;
+            }
+
+            nav a {
+                padding: 8px 10px;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            th, td {
+                padding: 6px 8px;
+                font-size: 12px;
+            }
+
+            .table-wrapper {
+                margin: -5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="company logo.jpg" alt="Company Logo">
+        <h1>IBM COURSES</h1>
+    </header>
+    <nav>
+        <a href="#">IKUSASA TECHNOLOGY SOLUTIONS</a>
+        <a href="#">136 2nd St, Randjespark, Midrand </a>
+        <a href="#">Johannesburg 1685</a>
+        <a href="#">010 824 1153/54</a>
+    </nav>
+    <section>
+        <a href="https://ikusasatech.com/courses" class="back-button">List of Offered Courses</a>
+        <h2>IBM Blockchain</h2>
+        <div class="table-wrapper">
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Blockchain ESE0G</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>13</td>
+                    <td>6</td>
+                    <td>16</td>
+                    <td>22</td> 
+                    <td>7</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Blockchain Workshop</td>
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>19</td>
+                    <td>19</td>
+                    <td>11</td>
+                    <td>18</td>
+                    <td>17</td> 
+                    <td>10</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM QRadar BQ203GZA</td>
+                    <td>2 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>26</td>
+                    <td>23</td>
+                    <td>13</td>
+                    <td>19</td>
+                    <td>6</td> 
+                    <td>21</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM QRadar BQ103</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>18</td>
+                    <td>15</td>
+                    <td>1</td>
+                    <td>22</td>
+                    <td>21</td> 
+                    <td>28</td>
+
+                </tr>
+
+            </tbody>
+        </table>
+        <h2>IBM Guardium</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Guardium 8G100G</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>25</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>30</td>
+                    <td>8</td> 
+                    <td>6</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Guardium Foundations 8G100XGSZA</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>22</td>
+                    <td>1</td>
+                    <td>26</td>
+                    <td>2</td> 
+                    <td>12</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM System X and blade centre</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM X Technical Principles</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>1</td>
+                    <td>14</td>
+                    <td>24</td>
+                    <td>1</td> 
+                    <td>7</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Blade Centre  Fundamentals</td>
+                    <td>2 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>16</td>
+                    <td>9</td>
+                    <td>5</td>
+                    <td>26</td>
+                    <td>24</td> 
+                    <td>14</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM TIVOLI COURSES Storage Management</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Tivoli Storage Flash Copy Manager for AIX and Linux</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>18</td>
+                    <td>22</td>
+                    <td>4</td>
+                    <td>17</td>
+                    <td>22</td> 
+                    <td>13</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Tivoli Storage Manager for Virtual Environments 7.1</td>
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>23</td>
+                    <td>23</td>
+                    <td>5</td>
+                    <td>19</td>
+                    <td>15</td> 
+                    <td>6</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM System Storage</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>Storage Area Networking Fundamentals</td>
+
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>23</td>
+                    <td>20</td>
+                    <td>6</td>
+                    <td>17</td>
+                    <td>8</td> 
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM DS8000 Implementation Workshop for System Z</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>30</td>
+                    <td>15</td>
+                    <td>12</td>
+                    <td>24</td>
+                    <td>16</td> 
+                    <td>12</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM I</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>RPG IV Programming Fundamentals Workshop for IBM I</td>
+
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>16</td>
+                    <td>14</td>
+                    <td>7</td>
+                    <td>18</td>
+                    <td>21</td> 
+                    <td>12</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>System Operator Workshop For IBM I</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>13</td>
+                    <td>25</td>
+                    <td>8</td> 
+                    <td>26</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM End Point Manage</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Tivoli Storage Manager for Virtual Environments 7.1</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>8</td>
+                    <td></td>
+                    <td>26</td>
+                    <td>16</td> 
+                    <td>21</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Tivoli Monitoring 6.3 for Implementers</td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>7</td>
+                    <td>6</td>
+                    <td>30</td>
+                    <td>9</td> 
+                    <td>5</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>Data Power Course</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>Technical Introduction to IBM DataPower Gateway Appliance V7.5.0</td>
+
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>25</td>
+                    <td>6</td>
+                    <td>1</td>
+                    <td>30</td>
+                    <td>13</td> 
+                    <td>14</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Web	Services	Support	in	IBM DataPower V7.5</td>
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>29</td>
+                    <td>6</td> 
+                    <td>11</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>WebSphere Message Broker</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Integration Bus V10 System Administration</td>
+
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>30</td>
+                    <td>20</td>
+                    <td>6</td>
+                    <td>17</td>
+                    <td>22</td> 
+                    <td>19</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Integration Bus V10 Application Development II</td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>24</td>
+                    <td>9</td> 
+                    <td>20</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM WebSphere Application Server Courses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM WebSphere Application Server V9 Installation</td>
+
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>25</td>
+                    <td>2</td>
+                    <td>5</td>
+                    <td>26</td>
+                    <td>6</td> 
+                    <td>14</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>WebSphere Application Server V8.5.5 Administration</td>
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>13</td>
+                    <td>13</td>
+                    <td>19</td>
+                    <td>29</td> 
+                    <td>26</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>WebSphere MQ</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM MQ Technical Introduction WM103</td>
+
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>16</td>
+                    <td>6</td>
+                    <td>15</td>
+                    <td>22</td>
+                    <td>27</td> 
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM MQ V8 System Administration
+                        (using Windows for labs)
+                        </td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>17</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>18</td>
+                    <td>9</td> 
+                    <td>12</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>V8 System Administration (Using Linux for Labs) - New</td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>20</td>
+                    <td></td>
+                    <td>23</td>
+                    <td>16</td> 
+                    <td>6</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>DB2 Courses</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>DB2 CE031ZA</td>
+
+                    <td>2 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>26</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>25</td>
+                    <td>6</td> 
+                    <td>4</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>DB2 SQL CE121ZA</td>
+                    <td>2 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>23</td>
+                    <td>1</td>
+                    <td>22</td>
+                    <td>27</td> 
+                    <td>7</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>DB2 SQL Bootcamp</td>
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>30</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>17</td>
+                    <td>22</td> 
+                    <td>26</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>DB2 10.5 Administration Workshop for Windows</td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>21</td>
+                    <td>11</td>
+                    <td>19</td>
+                    <td>9</td> 
+                    <td>27</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>Power Systems</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>Power systems running Linux</td>
+
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>23</td>
+                    <td>19</td>
+                    <td>12</td>
+                    <td>29</td>
+                    <td>20</td> 
+                    <td>8</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power systems running Linux
+                        (Redhat Administration Power VM Base)</td>
+                    <td>1 DAY</td>
+                    <td>Price On Request</td>
+                    <td>16</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>15</td>
+                    <td>14</td> 
+                    <td>21</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power systems running Linux
+                        (Linux Ubuntu Storage Management)
+                        </td>
+                    <td>2 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>25</td>
+                    <td>15</td>
+                    <td>13</td>
+                    <td>26</td>
+                    <td>15</td> 
+                    <td>14</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power systems running Linux (Suse Storage Management)</td>
+                    <td>4 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>18</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>12</td>
+                    <td>8</td> 
+                    <td>28</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Korn and Bash Shell Programming</td>
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>17</td>
+                    <td>22</td>
+                    <td>27</td>
+                    <td>17</td>
+                    <td>23</td> 
+                    <td>26</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Linux Basics and Installation (LX02)</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>24</td>
+                    <td>29</td>
+                    <td>7</td>
+                    <td>24</td>
+                    <td>29</td> 
+                    <td>21</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Linux system administration 1: implementation (LX03)</td>
+                    <td>5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>17</td>
+                    <td>8</td>
+                    <td>6</td>
+                    <td>30</td>
+                    <td>28</td> 
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Linux system administration 1: implementation</td>
+                    <td>3 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>24</td>
+                    <td>23</td>
+                    <td>11</td>
+                    <td>9</td>
+                    <td>24</td> 
+                    <td>19</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>IBM System P</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>POWER8 and AIX Enhancements Workshop</td>
+
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>22</td>
+                    <td>6</td>
+                    <td></td>
+                    <td>30</td>
+                    <td></td> 
+                    <td>5</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>AIX Basics</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>13</td>
+                    <td>8</td>
+                    <td></td>
+                    <td>24</td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power systems for AIX: LPAR Configuration and Planning</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                    <td>19</td>
+                    <td></td> 
+                    <td>19</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power Systems for AIX: Implementation and Admiration</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td>20</td>
+                    <td>13</td>
+                    <td></td>
+                    <td>15</td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power Systems for AIX: Advanced administration and problem determination</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>16</td>
+                    <td></td>
+                    <td></td>
+                    <td>24</td>
+                    <td></td> 
+                    <td>26</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>AIX Storage Management</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>31</td>
+                    <td>27</td>
+                    <td>4</td>
+                    <td></td>
+                    <td>8</td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Advanced Tools for AIX performance analysis</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>16</td>
+                    <td></td> 
+                    <td>12</td>
+
+                </tr>
+                <tr>
+                    
+                    <td>AIX NIM Concepts and configuration</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td>23</td>
+                    <td>6</td>
+                    <td>12</td>
+                    <td></td>
+                    <td>29</td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Korn and Bash Shell Programming</td>
+                    <td>2 -5 DAYS</td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>30</td>
+                    <td></td> 
+                    <td>20</td>
+
+                </tr>
+                
+            </tbody>
+        </table>
+        <h2>ITCAM</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Title</th>
+                    <th>Duration</th>
+                    <th>Price ex VAT</th>
+                    <th>Jan-24</th>
+                    <th>Feb-24</th>
+                    <th>Mar-24</th>
+                    <th>Apr-24</th>
+                    <th>May-24</th>
+                    <th>Jun-24</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    
+                    <td>IBM Tivoli Composite Application Manager for Transactions 7.3 Implementation and administration</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Tivoli Workload Scheduler 9.2 Administration</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Security Intelligence and Analytics</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Cloud Computing Foundations</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Analytics Business Intelligence</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Digital Business Automation</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+
+                <tr>
+                    
+                    <td>Cloud System Administration</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Watson And Cloud Platform</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Mobile Dev</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Hybrid Integration</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Power Systems</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Security Intelligence Fundamentals</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Data Integration</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>Data Security</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+                <tr>
+                    
+                    <td>IBM Storage</td>
+
+                    <td></td>
+                    <td>Price On Request</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> 
+                    <td></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #fff;
+            color: #000;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #8B0000;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #444;
+        }
+
+        section {
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #8B0000;
+            margin-bottom: 20px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+            margin: -20px 0; /* Add margin to allow scrolling */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px 15px;
+            text-align: left;
+            font-size: 16px;
+        }
+
+        th {
+            background-color: #007bff;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+
+        @media (max-width: 768px) {
+            header {
+                text-align: center;
+            }
+
+            header img {
+                position: static;
+                display: block;
+                margin: 0 auto 10px;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 5px 0;
+            }
+
+            section {
+                margin: 10px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+
+            th, td {
+                font-size: 14px;
+            }
+
+            .table-wrapper {
+                margin: -10px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            nav {
+                padding: 5px;
+            }
+
+            nav a {
+                padding: 8px 10px;
+            }
+
+            section {
+                padding: 10px;
+            }
+
+            th, td {
+                padding: 6px 8px;
+                font-size: 12px;
+            }
+
+            .table-wrapper {
+                margin: -5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="company logo.jpg" alt="Company Logo">        <h1>PECB ISO 37301: 2024 TRAINING COURSES</h1>
+    </header>
+    <nav>
+        <a href="#">IKUSASA TECHNOLOGY SOLUTIONS</a>
+        <a href="#">136 2nd St, Randjespark, Midrand </a>
+        <a href="#">Johannesburg 1685</a>
+        <a href="#">010 824 1153/54</a>
+    </nav>
+    <section>
+        <a href="https://ikusasatech.com/courses" class="back-button">List of Offered Courses</a>
+    <h2>CYBERSECURITY</h2>
+    <div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Course Title</th>
+                <th>Course code</th>
+                <th>Duration</th>
+    <th>Total Price (No Vat)</th>
+                <th>Jul-24</th>
+                <th>Aug-24</th>
+                <th>Sep-24</th>
+                <th>Oct-24</th>
+                <th>Nov-24</th>
+                <th>Dec-24</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td>Cyber Security</td>
+
+                <td>ISO/IEC 27032</td>
+                <td></td>
+                <td>Price On Request</td>
+                <td>17</td>
+                <td>15</td>
+                <td>9</td>
+                <td>18</td> 
+                <td>13</td>
+                <td>12</td>
+
+            </tr>
+            <tr>
+                
+                <td>Cloud Security</td>
+
+                <td></td>
+                <td></td>
+                <td>Price On Request</td>
+                <td>22</td>
+                <td>23</td>
+                <td>20</td>
+                <td>30</td>
+                <td>24</td> 
+                <td>2</td>
+
+            </tr>
+            <tr>
+                
+                <td>Penetration Testing</td>
+
+                <td></td>
+                <td></td>
+                <td>Price On Request</td>
+                <td></td>
+                <td></td>
+                <td>6</td>
+                <td></td>
+                <td></td> 
+                <td></td>
+
+            </tr>
+            <tr>
+                
+                <td>Ethical Hacking - Training Courses & Certification</td>
+                <td></td>
+                <td></td>
+                <td>Price On Request</td>
+                <td></td>
+                <td>14</td>
+                <td></td>
+                <td></td>
+                <td></td> 
+                <td>3</td>
+
+            </tr>
+       
+        <tr>
+            
+            <td>SCADA Security Manager</td>
+            <td></td>
+            <td></td>
+            <td>Price On Request</td>
+            <td>31</td>
+            <td></td>
+            <td></td>
+            <td>11</td>
+            <td></td>
+            <td></td> 
+
+
+        </tr>
+        <tr>
+            
+            <td>ISO/IEC 27033</td>
+            <td></td>
+            <td></td>                
+            <td>Price On Request</td>
+            <td></td>
+            <td></td>
+            <td>20</td>
+            <td></td>
+            <td>15</td> 
+            <td></td>
+
+        </tr>
+        <tr>
+            
+            <td>SCADA Security Manager</td>
+            <td></td>
+            <td></td>                
+            <td>Price On Request</td>
+            <td></td>
+            <td>8</td>
+            <td></td>
+            <td></td>
+            <td></td> 
+            <td></td>
+
+        </tr>
+        <tr>
+            
+            <td>Cybersecurity Maturity Model Certification</td>
+            <td></td>
+            <td></td>                
+            <td>Price On Request</td>
+            <td>19</td>
+            <td></td>
+            <td></td>
+            <td>25</td>
+            <td></td> 
+            <td></td>
+
+        </tr>
+
+    </tbody>
+</table>
+</div>
+</section>
+
+</body>
+</html>
